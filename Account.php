@@ -4,7 +4,7 @@ class Account
 	{
 		return 'Name';
 	}
-	
+
 	public function getConfig()
 	{
 		$file = file_get_contents(__DIR__ . '/' . 'configs/app.yml');
